@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* start top header */
+span {
+    font-size: 14px;
+    color: #AAAAAA;
+    font-family: "Roboto", sans-serif;
+}
+
+h6 {
+    font-size: 14px;
+    color: #00bcd4;
+    font-family: "Roboto", sans-serif;
+}
+
+h3 {
+    color: #00bcd4;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo span {
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/* end top header */
