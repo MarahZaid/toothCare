@@ -2,9 +2,35 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+.color-primary{
+    color: #00bcd4;
+}
+.bg-color-primary{
+    background-color: #00bcd4;
+}
+.font-family{
+     font-family: "Roboto", sans-serif;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.ls-2 {
+  letter-spacing: 2px;
 }
 
 /* start top header */
+.top-header{
+    background-color: #f8f8f8;
+}
+
 span {
     font-size: 14px;
     color: #AAAAAA;
@@ -20,6 +46,7 @@ h6 {
 h3 {
     color: #00bcd4;
     font-family: "Roboto", sans-serif;
+    line-height: 0.5;
 }
 
 .logo span {
@@ -29,3 +56,43 @@ h3 {
 
 
 /* end top header */
+
+/* start navbar */
+.navbar{
+    background-color: #ebebeb;
+    
+}
+
+.nav-link{
+    color: rgba(0, 0, 0, 0.5) !important;
+
+}
+.navbar .active{
+    color: #00bcd4 !important;
+}
+
+.navbar-toggler {
+  border: none;       
+  box-shadow: none;
+      
+}
+.navbar-toggler .navbar-toggler-icon{
+    color: white;
+}
+
+
+@media screen and (max-width: 991px) {
+  .navbar-expand-lg {
+    background-color: #00bcd4;
+  }
+  .navbar .active , .nav-link{
+    color: white !important;
+}
+.navbar .btn{
+        
+    background-color: rgba(255, 255, 255, 0.3);
+    
+}
+}
+
+/* end navbar */
