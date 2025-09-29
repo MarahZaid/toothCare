@@ -1,98 +1,131 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+
+
 }
-.color-primary{
-    color: #00bcd4;
+
+:root {
+    --mainColor: #00bcd4;
+    --mainFont: "Roboto", sans-serif;
 }
-.bg-color-primary{
-    background-color: #00bcd4;
-}
-.font-family{
-     font-family: "Roboto", sans-serif;
-}
-.fs-15{
+
+
+
+
+.fs-15 {
     font-size: 15px;
 }
-.fs-14{
+
+.fs-14 {
     font-size: 14px;
 }
-.fs-12{
+
+.fs-12 {
     font-size: 12px;
 }
+
 .ls-2 {
-  letter-spacing: 2px;
+    letter-spacing: 2px;
 }
 
 /* start top header */
-.top-header{
+.top-header {
     background-color: #f8f8f8;
 }
 
-span {
+.top-header span {
     font-size: 14px;
     color: #AAAAAA;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--mainFont);
 }
 
 h6 {
     font-size: 14px;
-    color: #00bcd4;
-    font-family: "Roboto", sans-serif;
+    color: var(--mainColor);
+    font-family: var(--mainFont);
 }
 
 h3 {
-    color: #00bcd4;
-    font-family: "Roboto", sans-serif;
+    color: var(--mainColor);
+    font-family: var(--mainFont);
     line-height: 0.5;
 }
 
 .logo span {
     font-size: 12px;
-    font-family: "Roboto", sans-serif;
+    font-family: var(--mainFont);
 }
 
+.logo h3 {
+    font-weight: 900;
+}
 
 /* end top header */
 
 /* start navbar */
-.navbar{
+.navbar {
     background-color: #ebebeb;
-    
-}
-
-.nav-link{
-    color: rgba(0, 0, 0, 0.5) !important;
 
 }
-.navbar .active{
-    color: #00bcd4 !important;
+
+.navbar .btn {
+    background-color: var(--mainColor);
+}
+
+.nav-link {
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--mainColor);
 }
 
 .navbar-toggler {
-  border: none;       
-  box-shadow: none;
-      
+    border: none;
+    box-shadow: none;
+
 }
-.navbar-toggler .navbar-toggler-icon{
+
+.navbar-toggler .navbar-toggler-icon {
     color: white;
+}
+.navbar span{
+    font-size: 14px;
 }
 
 
 @media screen and (max-width: 991px) {
-  .navbar-expand-lg {
-    background-color: #00bcd4;
-  }
-  .navbar .active , .nav-link{
-    color: white !important;
+    .navbar-expand-lg {
+        background-color: var(--mainColor);
+    }
+
+    .navbar-nav .nav-link.active,
+    .navbar-nav .nav-link.show,
+    .nav-link {
+        color: white;
+    }
+
+    .navbar .btn {
+
+        background-color: rgba(255, 255, 255, 0.3);
+
+    }
 }
-.navbar .btn{
-        
-    background-color: rgba(255, 255, 255, 0.3);
-    
+
+@media screen and (max-width: 350px) {
+    .navbar .btn {
+
+        font-size: 12px;
+
+    }
+    .navbar span{
+    font-size: 12px;
 }
+
 }
 
 /* end navbar */
