@@ -6,11 +6,18 @@
 
 }
 
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
 :root {
     --mainColor: #00bcd4;
     --mainFont: "Roboto", sans-serif;
 }
-
 
 
 
@@ -41,13 +48,13 @@
     font-family: var(--mainFont);
 }
 
-h6 {
+.top-header h6 {
     font-size: 14px;
     color: var(--mainColor);
     font-family: var(--mainFont);
 }
 
-h3 {
+.top-header h3 {
     color: var(--mainColor);
     font-family: var(--mainFont);
     line-height: 0.5;
@@ -93,7 +100,8 @@ h3 {
 .navbar-toggler .navbar-toggler-icon {
     color: white;
 }
-.navbar span{
+
+.navbar span {
     font-size: 14px;
 }
 
@@ -122,10 +130,56 @@ h3 {
         font-size: 12px;
 
     }
-    .navbar span{
-    font-size: 12px;
-}
+
+    .navbar span {
+        font-size: 12px;
+    }
 
 }
 
 /* end navbar */
+
+/* start footer */
+.footer {
+    background: url('../img/public/bg_1.jpg') no-repeat center center/cover;
+}
+
+.footer .overlay {
+
+
+    background-color: rgba(84, 198, 212, 0.9);
+}
+.footer h3 {
+    font-family: var(--mainFont);
+    line-height: 0.5;
+    font-weight: 900;
+}
+.footer .info p{
+    line-height: 2;
+    width: 90%;
+}
+.footer .info .icons .fa-facebook-f{
+    padding: 8px 11px;
+    
+}
+
+.footer li a {              
+  transition: color 0.5s ease !important;  
+}
+
+.footer li a:hover{
+    color: var(--mainColor) !important;
+}
+.footer .r-posts .post img{
+    width: 50px;
+    height: 50px;
+}
+.end-footer{
+    background-color: var(--mainColor);
+    font-weight: 500;
+}
+.end-footer .heart{
+    color: white;
+}
+
+/* end footer */
