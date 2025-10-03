@@ -155,12 +155,12 @@ ul {
     background-color: white;
     width: 11px;
     height: 11px;
-   
+
 }
 
 .carousel-indicators .active {
     background-color: #00bcd4;
-    
+
 }
 
 .carousel .overlay {
@@ -176,26 +176,31 @@ ul {
 .carousel .hero-content h1 {
     font-size: 60px;
 }
-.carousel .hero-content button{
-    
-     transition: box-shadow 0.5s ease; 
+
+.carousel .hero-content button {
+
+    transition: box-shadow 0.5s ease;
 
 }
-.carousel .hero-content button:hover{
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
- 
+
+.carousel .hero-content button:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
 }
-.carousel .hero-content .btn1:hover{
-   background-color: var(--mainColor);
- 
+
+.carousel .hero-content .btn1:hover {
+    background-color: var(--mainColor);
+
 }
-.carousel .hero-content .btn2:hover{
-   background-color: white;
- 
+
+.carousel .hero-content .btn2:hover {
+    background-color: white;
+
 }
-.carousel .hero-content .btn2:hover{
-   color: var(--mainColor);
- 
+
+.carousel .hero-content .btn2:hover {
+    color: var(--mainColor);
+
 }
 
 
@@ -230,6 +235,121 @@ ul {
 }
 
 /* end hero */
+/* start appoitment */
+.appoitment {
+    width: 100%;
+    overflow-x: hidden;
+
+
+}
+
+
+.form-control {
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+    font-family: var(--mainFont);
+    font-size: 14px;
+    font-weight: bold;
+
+
+}
+.appoitment .form-select, .appoitment input[type="date"], .appoitment input[type="time"]{
+    color: rgba(255, 255, 255, 0.7);
+}
+.appoitment input[type="date"]::-webkit-calendar-picker-indicator,
+.appoitment input[type="time"]::-webkit-calendar-picker-indicator {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    width: 20% ;
+
+}
+
+
+
+.appoitment .services {
+
+    background-color: #f8f8f8;
+}
+
+.appoitment .services p {
+    color: #AAAAAA;
+    line-height: 2;
+}
+
+.appoitment .services .service-card,
+.appoitment .services .service-card p,
+.appoitment .services .service-card h4,
+.appoitment .services .service-card .img2,
+.appoitment .services .service-card .img1 {
+    transition: all 0.5s ease !important;
+}
+
+.appoitment .services .service-card .img2 {
+    display: none;
+}
+
+.appoitment .services .service-card:hover {
+    background-color: var(--mainColor) !important;
+}
+
+.appoitment .services .service-card:hover,
+.appoitment .services .service-card:hover p,
+.appoitment .services .service-card:hover h4 {
+    color: white;
+}
+
+.appoitment .services .service-card:hover,
+.appoitment .services .service-card:hover .img1 {
+    display: none;
+}
+
+.appoitment .services .service-card:hover,
+.appoitment .services .service-card:hover .img2 {
+    display: block;
+}
+
+.appoitment input:focus,
+.appoitment .form-select:focus {
+    border-color: transparent;
+    border-bottom: 2px solid #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+.appoitment textarea:focus {
+    border: 2px solid #fff;
+    box-shadow: none;
+    outline: none;
+}
+
+
+
+@media screen and (min-width:1200px) {
+    .appoitment .services {
+        padding-top: 80px !important;
+        padding-left: 40px !important;
+        padding-bottom: 80px !important;
+        padding-right: 120px !important;
+        background-color: #f8f8f8;
+    }
+
+    .appoitment .form {
+        padding-left: 130px !important;
+        padding-right: 50px !important;
+        padding-top: 40px !important;
+
+
+    }
+
+}
+
+/* end appoitment */
 
 /* start footer */
 .footer {
