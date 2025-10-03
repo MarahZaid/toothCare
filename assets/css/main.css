@@ -351,6 +351,67 @@ ul {
 
 /* end appoitment */
 
+/* start services */
+.tc-services{
+    background-color: #f0f0f0;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    
+}
+.tc-services .service-card {
+    transition: all 0.5s ease;
+}
+.tc-services .service-card .service-img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+
+.tc-services .service-card .service-img::before {
+  content: "";
+  position: absolute;
+  top: -24px;  
+  left: 50%;   
+  transform: translateX(-50%);
+  width: 2px;  
+  height: 24px; 
+  background-color: #aaaaaa4f; 
+  transition: all 0.5s ease;
+}
+
+.tc-services .service-card .service-info h4{
+
+     transition: all 0.5s ease;
+}
+
+.tc-services .service-card .service-info p{
+    color:#AAAAAA;
+    width: 97%;
+    line-height: 1.8;
+     transition: all 0.5s ease;
+}
+
+.tc-services .service-card:hover{
+    background-color: var(--mainColor) !important;
+}
+.tc-services .service-card:hover h4,
+.tc-services .service-card:hover p
+{
+    color: white !important;
+}
+.tc-services .service-card:hover .service-img
+{
+    background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.tc-services .service-card:hover .service-img::before {
+  
+  background-color:  rgba(255, 255, 255, 0.3) !important; 
+}
+
+
+/* end services */
+
 /* start footer */
 .footer {
     background: url('../img/public/bg_1.jpg') no-repeat center center/cover;
