@@ -451,18 +451,111 @@ ul {
 }
 @media (max-width: 1400px) and (min-width:1100px) {
   .about .about-info .statistics .stat h6 {
-    font-size: 14px !important; /* صغّر حجم الخط على الشاشات الصغيرة */
+    font-size: 14px !important; 
   }
 }
 @media (max-width: 1099px) and (min-width:992px) {
   .about .about-info .statistics .stat h6 {
-    font-size: 12px !important; /* صغّر حجم الخط على الشاشات الصغيرة */
+    font-size: 12px !important; 
   }
 }
 
 
 
 /* end about */
+
+/* start doctors */
+.doctors{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+.doctors .row{
+    row-gap: 60px;
+}
+.doctors .card {
+  position: relative;
+  transition: all 0.5s ease;
+  height: 100%;
+}
+.doctors h2{
+    margin-bottom: 150px;
+}
+.doctors .doc-img {
+    width: 200px;
+    height: 200px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  overflow: hidden;
+  margin-top: -100px; 
+  position: relative;
+  z-index: 10;
+  border: #f8f8f8 10px solid;
+  
+}
+.doctors .doc-img img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.doctors .card-body h5 {
+    transition: all 0.5s ease;
+}
+.doctors .card-body span {
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+.doctors .card-body .text-info{
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s ease;
+}
+.doctors .card-body p{
+    color:#AAAAAA;
+    line-height: 1.8;
+    transition: all 0.5s ease;
+}
+@media (max-width: 992px) {
+  .doctors {
+    padding-top: 10px;
+    padding-bottom: 60px;
+  }
+  .doctors .doc-img {
+    width: 150px;
+    height: 150px;
+    margin-top: -90px;
+  }
+  .doctors h2{
+    margin-bottom: 100px;
+}
+ 
+}
+
+@media (max-width: 576px) {
+  .doctors h2 {
+    font-size: 1.8rem;
+  }
+
+  .doctors .card-body .text-info {
+    width: 32px;
+    height: 32px;
+  }
+}
+.doctors .card:hover {
+  background-color: var(--mainColor);
+}
+.doctors .card:hover .card-body h5,.doctors .card:hover .card-body span{
+    color: white;
+}
+.doctors .card:hover .text-info{
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.doctors .card:hover .card-body p{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+/* end doctors */
 /* start footer */
 .footer {
     background: url('../img/public/bg_1.jpg') no-repeat center center/cover;
