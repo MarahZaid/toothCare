@@ -556,6 +556,32 @@ ul {
 }
 
 /* end doctors */
+
+/* start make-appoitment */
+.make-appoitment {
+    background: url('../img/public/bg_1.jpg') no-repeat center center/cover;
+}
+
+.make-appoitment .overlay {
+
+
+    background-color: rgba(0, 198, 212, 0.8);
+}
+.make-appoitment span, .make-appoitment button{
+    letter-spacing: 2px;
+    transition: all 0.5s ease;
+}
+.make-appoitment h2{
+    font-size: 30px;
+    line-height: 1.5;
+}
+.make-appoitment .btn:hover{
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--mainColor);
+}
+
+/* end mke-appoitment */
+
 /* start footer */
 .footer {
     background: url('../img/public/bg_1.jpg') no-repeat center center/cover;
