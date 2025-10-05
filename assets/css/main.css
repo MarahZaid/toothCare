@@ -584,7 +584,7 @@ ul {
 
 /* start stories */
 .stories{
-    padding: 120px 0;
+    padding: 120px 0 0;
     background-color: #f0f0f0;
 }
 .stories .story1{
@@ -639,8 +639,8 @@ ul {
 
 /* start our-blog */
 .our-blog{
-    padding: 0 0 120px;
-    background-color: #f0f0f0;
+    padding: 120px 0;
+    background-color: #f8f8f8;
 }
 .our-blog .blog-item .card-body .post-time{
     font-size: 13px;
@@ -656,6 +656,47 @@ ul {
 
 
 /* end our-blog */
+
+/* start our-pricing */
+.our-pricing{
+    padding: 0 0 140px;
+    background-color: #f8f8f8;
+}
+.our-pricing .price{
+    border: #eae9e9 solid 1px;
+    transition: all 0.5s ease; 
+   transform: scale(1);
+    
+}
+.our-pricing .price p{
+    color: #AAAAAA;
+    font-weight: 500;
+    
+}
+.our-pricing .price span{
+    letter-spacing: 2px;
+}
+.our-pricing .price button{
+    width: 60%;
+     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+.our-pricing .price button:hover{
+    background-color: var(--mainColor);
+}
+.our-pricing .price:hover{
+   transform: scale(1.02); 
+  background-color: #fffefe;
+  border: 0 #f0f0f0;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    
+}
+.our-pricing .price:hover button{
+   
+  box-shadow: 0 8px 15px #f8f8f8;
+    
+}
+
+/* end our-pricing */
 
 /* start footer */
 .footer {
