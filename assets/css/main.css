@@ -585,6 +585,7 @@ ul {
 /* start stories */
 .stories{
     padding: 120px 0;
+    background-color: #f0f0f0;
 }
 .stories .story1{
     background-image: url(../img/stories/result-1.jpg);
@@ -635,6 +636,26 @@ ul {
 
 
 /* end stories */
+
+/* start our-blog */
+.our-blog{
+    padding: 0 0 120px;
+    background-color: #f0f0f0;
+}
+.our-blog .blog-item .card-body .post-time{
+    font-size: 13px;
+    color: #AAAAAA;
+}
+.our-blog .blog-item .card-body h5{
+    line-height: 1.6;
+}
+.our-blog .blog-item .card-body .card-text{
+    color: #AAAAAA;
+    line-height: 1.8;
+}
+
+
+/* end our-blog */
 
 /* start footer */
 .footer {
