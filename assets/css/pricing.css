@@ -1,0 +1,55 @@
+/* start services hero */
+
+.pricing-hero{
+   
+    padding-top: 230px;
+    padding-bottom: 41px;
+    background: url(../img/public/bg_2.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+
+}
+.pricing-hero .overlay {
+    
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.pricing-hero .breadcrumb-item + .breadcrumb-item::before {
+    color: white !important;
+}
+.pricing-hero .breadcrumb-item a{
+    transition: all 0.5s ease;
+}
+.pricing-hero .breadcrumb-item a:hover {
+    color: var(--mainColor) !important;
+}
+.pricing-hero h1{
+    font-size: 4.4rem;
+    font-weight: 400;
+}
+
+/* end dentist hero */
+
+.our-pricing{
+    padding-top: 130px;
+}
+
+/* start FAQs */
+.FAQs{
+    padding-bottom: 130px;
+    
+}
+.FAQs .accordion{
+    width: 77%;
+}
+.FAQs .accordion .accordion-body{
+    color:#AAAAAA;
+    font-family: var(--mainFont);
+}
+.FAQs .accordion .accordion-button:not(.collapsed) {
+  background-color: var(--mainColor); 
+  color: black;
+  box-shadow: none; 
+}
+
+
+
+/* end FAQs */
