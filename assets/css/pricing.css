@@ -49,7 +49,11 @@
   color: black;
   box-shadow: none; 
 }
-
+@media screen and (max-width:767px) {
+    .FAQs .accordion{
+    width: 99%;
+}
+}
 
 
 /* end FAQs */
