@@ -249,7 +249,6 @@ ul {
 
 }
 
-
 .form-control {
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
@@ -400,6 +399,7 @@ ul {
 
 .tc-services .service-card:hover{
     background-color: var(--mainColor) !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 .tc-services .service-card:hover h4,
 .tc-services .service-card:hover p

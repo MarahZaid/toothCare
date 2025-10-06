@@ -1,0 +1,32 @@
+/* start services hero */
+
+.services-hero{
+   
+    padding-top: 230px;
+    padding-bottom: 41px;
+    background: url(../img/public/bg_2.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+
+}
+.services-hero .overlay {
+    
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.services-hero .breadcrumb-item + .breadcrumb-item::before {
+    color: white !important;
+}
+.services-hero .breadcrumb-item a{
+    transition: all 0.5s ease;
+}
+.services-hero .breadcrumb-item a:hover {
+    color: var(--mainColor) !important;
+}
+.services-hero h1{
+    font-size: 4.4rem;
+    font-weight: 400;
+}
+
+/* end dentist hero */
+.tc-services{
+    padding-bottom: 140px;
+}
