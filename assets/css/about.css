@@ -1,0 +1,29 @@
+/* start dentist hero */
+
+.about-hero{
+   
+    padding-top: 230px;
+    padding-bottom: 41px;
+    background: url(../img/public/bg_2.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+
+}
+.about-hero .overlay {
+    
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.about-hero .breadcrumb-item + .breadcrumb-item::before {
+    color: white !important;
+}
+.about-hero .breadcrumb-item a{
+    transition: all 0.5s ease;
+}
+.aboutt-hero .breadcrumb-item a:hover {
+    color: var(--mainColor) !important;
+}
+.about-hero h1{
+    font-size: 4.4rem;
+    font-weight: 400;
+}
+
+/* end dentist hero */
