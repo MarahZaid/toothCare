@@ -266,17 +266,10 @@ ul {
 
 
 }
-.appoitment .form-select, .appoitment input[type="date"], .appoitment input[type="time"]{
+.appoitment .form-select{
     color: rgba(255, 255, 255, 0.7);
 }
-.appoitment input[type="date"]::-webkit-calendar-picker-indicator,
-.appoitment input[type="time"]::-webkit-calendar-picker-indicator {
-    opacity: 0;
-    cursor: pointer;
-    position: absolute;
-    width: 20% ;
 
-}
 
 
 
