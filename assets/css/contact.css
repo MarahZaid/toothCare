@@ -1,0 +1,75 @@
+/* start contact hero */
+
+.contact-hero{
+   
+    padding-top: 230px;
+    padding-bottom: 41px;
+    background: url(../img/public/bg_2.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+
+}
+.contact-hero .overlay {
+    
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.contact-hero .breadcrumb-item + .breadcrumb-item::before {
+    color: white !important;
+}
+.contact-hero .breadcrumb-item a{
+    transition: all 0.5s ease;
+}
+.contact-hero .breadcrumb-item a:hover {
+    color: var(--mainColor) !important;
+}
+.contact-hero h1{
+    font-size: 4.4rem;
+    font-weight: 400;
+}
+
+/* end contact hero */
+
+/* start contact */
+.contact{
+    padding-top:130px;
+    padding-bottom: 130px;
+    background-color: #f0f0f0;
+ 
+}
+            
+.contact .contact-form{
+   
+    width: 67%;
+}
+.contact .contact-form p{
+    color: #AAAAAA;
+}
+.contact .form-control::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+    font-family: var(--mainFont);
+    font-size: 14px;
+
+}
+.contact  input:focus,
+.contact textarea:focus  {
+    border-color: var(--mainColor);
+    
+    box-shadow: none;
+    outline: none;
+}
+.contact .btn:hover{
+    background-color: var(--mainColor);
+}
+.contact a:hover{
+    color: black;
+}
+
+
+
+@media  screen and (max-width:992px) {
+    .contact .contact-form{
+   
+    width: 100%;
+}
+}
+
+/* end contact */

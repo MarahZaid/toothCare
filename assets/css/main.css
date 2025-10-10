@@ -31,6 +31,9 @@ ul {
 .fs-14 {
     font-size: 14px;
 }
+.fs-13 {
+    font-size: 13px;
+}
 
 .fs-12 {
     font-size: 12px;
@@ -249,13 +252,13 @@ ul {
 
 }
 
-.form-control {
+.appoitment .form-control {
 
     border-bottom: 1px solid rgba(255, 255, 255, 0.7);
 
 }
 
-.form-control::placeholder {
+.appoitment .form-control::placeholder {
     color: rgba(255, 255, 255, 0.7);
     font-family: var(--mainFont);
     font-size: 14px;
