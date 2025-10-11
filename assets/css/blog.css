@@ -1,0 +1,122 @@
+.blog-hero{
+   
+    padding-top: 230px;
+    padding-bottom: 41px;
+    background: url(../img/public/bg_2.jpg) no-repeat center center/cover;
+    background-attachment: fixed;
+
+}
+.blog-hero .overlay {
+    
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.blog-hero .breadcrumb-item + .breadcrumb-item::before {
+    color: white !important;
+}
+.blog-hero .breadcrumb-item a{
+    transition: all 0.5s ease;
+}
+.blog-hero .breadcrumb-item a:hover {
+    color: var(--mainColor) !important;
+}
+.blog-hero h1{
+    font-size: 4.4rem;
+    font-weight: 400;
+}
+
+
+/* start our-blog */
+
+.blog-item .card-body .post-time{
+    font-size: 13px;
+    color: #AAAAAA;
+}
+.blog-item .card-body h5{
+    line-height: 1.6;
+}
+ .blog-item .card-body .card-text{
+    color: #AAAAAA;
+    line-height: 1.8;
+}
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.blog-item {
+  animation: fadeUp 1s ease-out both;
+  animation-timeline: scrollShowTimeline;
+  animation-range: entry 0% cover 30%;
+}
+
+
+
+/* end our-blog */
+.blog-contact{
+    padding: 120px 0;
+}
+.blogs form div{
+    border: 10px #f0f0f0 solid;
+}
+.blogs form div input{
+    outline: 0;
+}
+ .r-posts .post .img {
+    width: 130px;
+    height: 90px;
+}
+ .r-posts .post h6{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+}
+.post a{
+    transition: all 0.5s ease;
+    color: black;
+}
+.post a:hover{
+    color: var(--mainColor);
+}
+.Cloud span{
+    line-height: 2.5;
+}
+.Paragraph p{
+    color: #AAAAAA;
+    font-weight: 400;
+}
+
+.page-item .page-link {
+    width: 2.5rem;
+    height: 40px;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    color: black;
+    transition: all 0.5s ease;
+}
+.page-link {
+    
+    padding-left: 14px;
+    
+
+}
+.page-item .page-link:hover {
+    color: white;
+    background-color: var(--mainColor);
+}
+.Page .active{
+    background-color: var(--mainColor) !important;
+    color: white;
+}
+.active>.page-link, .page-link.active {
+    z-index: 3;
+    color: white;
+    background-color: var(--mainColor);
+    border-color: var(--mainColor);
+}
+
