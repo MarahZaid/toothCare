@@ -93,6 +93,12 @@ ul {
 
 .navbar .btn {
     background-color: var(--mainColor);
+   border: 0;
+    outline: 0;
+}
+.navbar img{
+    border: 0;
+    outline: 0;
 }
 
 .nav-link {
@@ -137,14 +143,19 @@ ul {
         color: white;
     }
 
-    .navbar .btn {
+    .navbar .m {
 
         background-color: rgba(255, 255, 255, 0.3);
 
     }
+    .navbar .btn{
+        background: transparent;
+    }
+
+
 }
 
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 400px) {
     .navbar .btn {
 
         font-size: 12px;
@@ -154,7 +165,7 @@ ul {
     .navbar span {
         font-size: 12px;
     }
-
+    
 }
 
 /* end navbar */
