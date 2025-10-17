@@ -1,0 +1,42 @@
+
+.login {
+    background: url('../img/public/bg_2.jpg') no-repeat center center/cover;
+    min-height: 100vh;
+    background-attachment: fixed;
+    
+
+}
+
+.login .overlay {
+height: 100vh;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.login .login-content{
+    margin-top: 2%;
+    padding: 6% 4%;
+    background: rgba(255, 255, 255, 0.4);
+    
+    border: rgba(255, 255, 255, 0.6) 5px solid;
+    backdrop-filter: blur(10px);
+}
+.login input::placeholder {
+    color: white;
+}
+
+.login input {
+    background: transparent;
+    color: white;
+    border: none;
+    border-bottom: #f1f1f1 solid 2px;
+    
+}
+
+.login input:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.login button:hover {
+    background-color: #f1f1f1;
+    color: var(--mainColor) !important;
+}

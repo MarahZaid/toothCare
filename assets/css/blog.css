@@ -51,8 +51,7 @@
 
 .blog-item {
   animation: fadeUp 1s ease-out both;
-  animation-timeline: scrollShowTimeline;
-  animation-range: entry 0% cover 30%;
+  
 }
 
 

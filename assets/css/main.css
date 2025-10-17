@@ -248,6 +248,8 @@ ul {
 .appoitment {
     width: 100%;
     overflow-x: hidden;
+    animation: fadeUp 2s ease-out both;
+ 
 
 
 }
@@ -353,11 +355,16 @@ ul {
 /* end appoitment */
 
 /* start services */
+
 .tc-services{
     background-color: #f0f0f0;
     padding-top: 120px;
     padding-bottom: 120px;
     
+}
+.tc-services span, .tc-services h2{
+    animation: fadeUp 2s ease-out both;
+  
 }
 .tc-services .service-card {
     transition: all 0.5s ease;
@@ -418,6 +425,8 @@ ul {
 .about{
     overflow-x: hidden;
     background-color: #f8f8f8;
+     animation: fadeUp 2s ease-out both;
+ 
 }
 .about .about-img {
     background-image: url(../img/about/about.webp);
@@ -481,6 +490,12 @@ ul {
 }
 .doctors h2{
     margin-bottom: 150px;
+     animation: fadeUp 2s ease-out both;
+  
+}
+.doctors span{
+     animation: fadeUp 2s ease-out both;
+  
 }
 .doctors .doc-img {
     width: 200px;
@@ -563,7 +578,10 @@ ul {
 .make-appoitment {
     background: url('../img/public/bg_1.jpg') no-repeat center center/cover;
 }
-
+.appoitment-content{
+     animation: fadeUp 2s ease-out both;
+  
+}
 .make-appoitment .overlay {
 
 
@@ -602,6 +620,12 @@ ul {
 }
 .testimonial span{
     font-size: 13px;
+     animation: fadeUp 2s ease-out both;
+  
+}
+.testimonial h2{
+     animation: fadeUp 2s ease-out both;
+  
 }
 .testimonial .icon{
     width: 50px;
@@ -634,6 +658,10 @@ ul {
 }
 .testimonial .Indicators .active{
     background-color: var(--mainColor);
+}
+.testimonial .customer-card{
+     animation: fadeUp 2s ease-out both;
+  
 }
 
 /* end testimonial */
@@ -804,3 +832,13 @@ ul {
 }
 
 /* end footer */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
