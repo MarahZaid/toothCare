@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Log in</title>
+    <title>Register</title>
     <meta name="description"
         content="Access or create your ToothCare account to manage appointments, track treatments, and stay updated with your dental health.">
     <meta name="keywords"
@@ -131,40 +131,46 @@
     <section class="login position-relative d-flex align-items-center justify-content-center min-vh-100 pt-5 pb-5">
         <div class="overlay position-absolute top-0 start-0 w-100 h-100"></div>
         <div class="container">
-            <div class="row justify-content-between mx-auto align-items-center ">
-                <div id="loginForm"
-                    class="login-content position-relative z-1 rounded-5 text-center col-lg-6 col-sm-12">
-                    <h2 class="fw-bold mb-4 text-white text-uppercase font-family">Welcome Back</h2>
+            <div class="row justify-content-end mx-auto align-items-center">
+
+                <div id="registerForm"
+                    class="login-content position-relative z-1 rounded-5 text-center col-lg-6 col-sm-12 ">
+                    <h2 class="fw-bold mb-4 text-white text-uppercase font-family">Welcome</h2>
                     <form>
-                        <div class="mb-3 text-start">
-                            <label for="email" class="form-label text-white font-family">Email address</label>
-                            <input type="email" class="form-control rounded-0" id="email" placeholder="Enter your email"
-                                required>
+                        <div class="row">
+                            <div class="mb-3 text-start col-md-6">
+                                <label for="fullname" class="form-label text-white font-family">Full Name</label>
+                                <input type="text" class="form-control rounded-0" id="fullname"
+                                    placeholder="Enter your full name" required>
+                            </div>
+
+                            <div class="mb-3 text-start col-md-6">
+                                <label for="email_reg" class="form-label text-white font-family">Email address</label>
+                                <input type="email" class="form-control rounded-0" id="email_reg"
+                                    placeholder="Enter your email" required>
+                            </div>
                         </div>
-                        <div class="mb-3 text-start">
-                            <label for="password" class="form-label text-white font-family">Password</label>
-                            <input type="password" class="form-control rounded-0" id="password"
+
+                        <div class="mb-3 text-start ">
+                            <label for="password_reg" class="form-label text-white font-family">Password</label>
+                            <input type="password" class="form-control rounded-0" id="password_reg"
                                 placeholder="Enter your password" required>
                         </div>
-                        <div class="d-flex justify-content-between align-items-center mb-5">
-                            <div class="form-check text-white">
-                                <input class="form-check-input bg-light" type="checkbox" id="remember">
-                                <label class="form-check-label font-family" for="remember">Remember me</label>
-                            </div>
-                            <a href="#" class="text-white text-decoration-underline small font-family">Forgot
-                                Password?</a>
+                        <div class="mb-5 text-start ">
+                            <label for="confirm_password" class="form-label text-white font-family">Confirm
+                                Password</label>
+                            <input type="password" class="form-control rounded-0" id="confirm_password"
+                                placeholder="Re-enter your password" required>
                         </div>
                         <button type="submit"
-                            class="btn bg-main w-100 text-white fw-semibold font-family">Login</button>
+                            class="btn bg-main w-100 text-white fw-semibold font-family">Register</button>
                     </form>
-
-                    <p class="mt-4 text-white">
-                        Don’t have an account?
-                        <a href="register.html" id="showRegister"
-                            class="text-white fw-bold text-decoration-underline font-family">Sign up</a>
+                    <p class="mt-4 text-white font-family">
+                        Already have an account?
+                        <a href="login.html" id="showLogin"
+                            class="text-white fw-bold text-decoration-underline">Login</a>
                     </p>
                 </div>
-
             </div>
         </div>
     </section>
