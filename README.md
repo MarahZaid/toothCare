@@ -88,27 +88,3 @@ toothCare/
 ```
 
 ---
-
-## 🚀 Getting Started
-
-No build tools or dependencies needed — just open the files in a browser.
-
-```bash
-# Clone the repository
-git clone <repo-url>
-
-# Open in browser
-open index.html
-```
-
-Or simply double-click `index.html` to launch locally.
-
----
-
-## 🏥 Clinic Info (Demo Data)
-
-- **Location:** San Francisco, California, USA
-- **Hours:** Monday – Friday, 8:00 AM – 8:00 PM
-- **Phone:** +2 392 3929 210
-
-
